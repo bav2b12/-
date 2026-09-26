@@ -1,0 +1,10 @@
+{
+  "name": "الأنطوني",
+  "short_name": "الأنطوني",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F7F3EA",
+  "theme_color": "#0F5C4C",
+  "description": "إدارة ديون العملاء لمتجر الأنطوني",
+  "orientation": "portrait-primary"
+}
