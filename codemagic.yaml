@@ -1,0 +1,19 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    max_build_duration: 60
+    environment:
+      flutter: 3.24.5
+      java: 17
+    scripts:
+      - name: Get Flutter packages
+        script: |
+          flutter pub get
+      - name: Accept Android Licenses
+        script: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+      - name: Build APK
+        script: |
+          flutter build apk --release --no-tree-shake-icons --verbose
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk
