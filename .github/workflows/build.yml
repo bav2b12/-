@@ -21,7 +21,7 @@ jobs:
       - name: Print Release SHA-1
         run: |
           cd android
-          ./gradlew signingReport
+          gradle signingReport
       - run: flutter build apk --release --android-skip-build-dependency-validation
       - uses: actions/upload-artifact@v4
         with:
