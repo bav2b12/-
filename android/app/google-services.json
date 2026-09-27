@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "0",
-    "project_id": "REPLACE_WITH_YOUR_FIREBASE_PROJECT",
-    "storage_bucket": "REPLACE_WITH_YOUR_FIREBASE_PROJECT.appspot.com"
+    "project_number": "756482151907",
+    "firebase_url": "https://project--data-default-rtdb.firebaseio.com",
+    "project_id": "project--data",
+    "storage_bucket": "project--data.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:0:android:replace_me",
+        "mobilesdk_app_id": "1:756482151907:android:7015e83adba79c0d713cd6",
         "android_client_info": {
           "package_name": "com.alantony.debts"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "REPLACE_ME"
+          "current_key": "AIzaSyAQTSaLIOcIppdAhUah_7-QXCtRE0AUbAA"
         }
       ],
       "services": {
